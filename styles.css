@@ -1,5 +1,6 @@
-#h1{
+.RecipeName{
     text-align: center;
+    
 }
 .recipeList ol {
     text-align: center;
@@ -26,7 +27,7 @@
 }
 
 #Directions{
-    font-size: 36px;
+    font-size: 34px;
     background-color: antiquewhite;
     color: black;
 }
@@ -35,4 +36,10 @@
     background-color: antiquewhite;
     color: black;
     font-weight: bold;
+}
+
+.HeaderPic{
+    display: flex;
+    justify-content:center  ;
+    align-items: center;
 }
