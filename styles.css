@@ -19,8 +19,20 @@
     width: 20px; 
     text-align: right; 
 }
-.Ingredients ul li {
-    size: 20px;
+.ingredients ul li {
+    font-size: 24px;
     margin: 10px;
     font-style: italic;
+}
+
+#Directions{
+    font-size: 36px;
+    background-color: antiquewhite;
+    color: black;
+}
+.para{
+    font-size: 32px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
 }
