@@ -1,0 +1,26 @@
+#h1{
+    text-align: center;
+}
+.recipeList ol {
+    text-align: center;
+}
+
+.recipeList ol li {
+    list-style: none; 
+    counter-increment: recipe-counter; 
+    margin-bottom: 10px; 
+}
+
+.recipeList ol li:before {
+    content: counter(recipe-counter) ". "; 
+    font-weight: bold; 
+    font-size: 18px; 
+    display: inline-block; 
+    width: 20px; 
+    text-align: right; 
+}
+.Ingredients ul li {
+    size: 20px;
+    margin: 10px;
+    font-style: italic;
+}
